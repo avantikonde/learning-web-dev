@@ -4,7 +4,7 @@ const jwt = require('jsonwebtoken');
 const { default: mongoose } = require('mongoose');
 const JWT_SECRET ="s3cret"
 
-mongoose.connect("mongodb+srv://avantikonde2020_db_user:B9tODo5XDffgn1GT@cluster0.mwrjfna.mongodb.net/")
+mongoose.connect("mongodb+srv://avantikonde:B9to5XDffgn1GT@cluster0.mwrjfna.mongodb.net/")
 
 const app = express();
 app.use(express.json());
